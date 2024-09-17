@@ -1,23 +1,24 @@
 # Tugas Pertemuan 2
 
-Fork dan clone repository ini, lalu jalankan perintah 
-```
-flutter pub get
-```
-Buatlah tampilan form yang berisi nama, nim, dan tahun lahir pada file `ui/form_data.dart`, lalu buatlah tampilan hasil dari input data tersebut pada file `ui/tampil_data.dart`
+Nama : Mochamad Gilang Fadil Hakim
 
-JELASKAN PROSES PASSING DATA DARI FORM MENUJU TAMPILAN DENGAN FILE `README.md`
+NIM : H1D022082
 
-Buat tampilan semenarik mungkin untuk dilihat.
+Shift Lama : B
 
+Shift Baru : B
 
-Nama : ___
+# Proses Passing Data Dari Form Ke Tampilan
 
-NIM : ___
+- Form Input Data: Pengguna akan memasukkan informasi seperti nama, NIM, dan tahun lahir melalui form yang terletak di file ui/form_data.dart. Form tersebut memanfaatkan widget TextField untuk menerima input dari pengguna yang kemudian disimpan dalam variabel tertentu.
 
-Shift Baru: ___
+- Tombol Simpan: Setelah pengguna mengisi form, mereka akan menekan tombol "Simpan". Ketika tombol ini diklik, data yang dimasukkan dalam form akan disimpan ke dalam variabel (string untuk nama dan NIM, serta integer untuk tahun lahir), kemudian dikirimkan sebagai parameter ke halaman hasil menggunakan Navigator.of(context).push.
 
-## Screenshot
+- Pindah ke Halaman Hasil: Aplikasi akan membuka halaman baru untuk menampilkan data yang telah dikirim berdasarkan input pengguna (nama, NIM, dan tahun lahir) dan mencetaknya pada halaman tersebut.
+
+- Menampilkan Data: Di halaman hasil, data yang diterima akan ditampilkan, dan umur pengguna dihitung berdasarkan tahun lahir yang dimasukkan. Informasi ini kemudian ditampilkan kepada pengguna di halaman tersebut.
+
+## HASIL
 Contoh :
-![Lampiran Form](form.png)
-![Lampiran Hasil](hasil.png)
+![Lampiran Form](formprakpemob.png)
+![Lampiran Hasil](formhasil.png)
